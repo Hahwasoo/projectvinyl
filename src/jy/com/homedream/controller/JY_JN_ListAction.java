@@ -102,7 +102,7 @@ public class JY_JN_ListAction implements Action {
 		
 		ActionForward forward = new ActionForward();
 		forward.setForward(true);
-		forward.setUrl("/jy_jn/jy_jn_list.jsp");
+		forward.setUrl("/hs_communitymain.jsp?page=jy_jn/jy_jn_list.jsp");
 		
 		return forward;
 	}
